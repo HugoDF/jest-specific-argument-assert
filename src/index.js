@@ -6,7 +6,7 @@ const homepage = `<html>
 </head>
 <em>Example project for "Jest assert over single or specific argument/parameters with .toHaveBeenCalledWith and expect.anything()"</em>
 <p>See the tests on GitHub: <a href="https://github.com/HugoDF/jest-specific-argument-assert/blob/master/src/pinger.test.js">https://github.com/HugoDF/jest-specific-argument-assert/blob/master/src/pinger.test.js</a></p>
-<p>See the tests in codesandbox at <code>src/somethingToTest.spec.js</code> <a href="https://codesandbox.io/s/0xvx0xyoxw">https://codesandbox.io/s/0xvx0xyoxw</a></p>
+<p>See the tests in codesandbox at <code>src/pinger.test.js</code> <a href="https://codesandbox.io/s/github/HugoDF/jest-specific-argument-assert/tree/master/">https://codesandbox.io/s/github/HugoDF/jest-specific-argument-assert/tree/master/</a></p>
 <p>Read the post:</p>
 </html>`;
 
