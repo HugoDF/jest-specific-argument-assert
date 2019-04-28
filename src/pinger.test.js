@@ -95,4 +95,13 @@ describe('pinger', () => {
     const actual = await pinger(1);
     expect(actual).toEqual(expected);
   });
+  test('throws if error thrown from axios is not caused by 4xx or 5xx status code', async () => {
+    mockPingConfig.mockResolvedValueOnce([
+      { url: 'example.tld' },
+    ]);
+    mockHead.mockImplementation(async () => {
+      throw Error('my error')
+    });
+    expect(pinger(1)).rejects.toEqual(new Error('my error'))
+  })
 });

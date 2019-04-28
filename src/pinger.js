@@ -38,6 +38,4 @@ async function pinger(accountId, { offset = 0, limit = 50 } = {}, search) {
   return responses;
 }
 
-pinger(2).then(console.log);
-
 module.exports = pinger;
