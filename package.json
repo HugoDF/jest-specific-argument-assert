@@ -1,0 +1,19 @@
+{
+  "name": "jest-specific-argument-assert",
+  "version": "1.0.0",
+  "description": "Jest assert over single or specific argument/parameters with .toHaveBeenCalledWith and expect.anything()",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "jest": "24.7.1",
+    "jest-cli": "24.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
