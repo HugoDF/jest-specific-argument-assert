@@ -3,17 +3,28 @@
   "version": "1.0.0",
   "description": "Jest assert over single or specific argument/parameters with .toHaveBeenCalledWith and expect.anything()",
   "main": "src/index.js",
+  "private": true,
   "scripts": {
     "start": "nodemon src/index.js localhost 8080",
     "test": "jest"
   },
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": "0.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4",
     "jest": "24.7.1",
     "jest-cli": "24.7.1"
   },
-  "devDependencies": {
-    "nodemon": "1.18.4"
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoDF/jest-specific-argument-assert.git"
   },
-  "keywords": []
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HugoDF/jest-specific-argument-assert/issues"
+  },
+  "homepage": "https://github.com/HugoDF/jest-specific-argument-assert#readme"
 }
