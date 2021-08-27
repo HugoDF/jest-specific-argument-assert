@@ -12,7 +12,7 @@
     "axios": "0.21.1"
   },
   "devDependencies": {
-    "jest": "27.0.6",
+    "jest": "27.1.0",
     "nodemon": "2.0.12"
   },
   "keywords": [],
