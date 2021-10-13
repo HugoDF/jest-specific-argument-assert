@@ -9,7 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "axios": "0.22.0"
+    "axios": "0.23.0"
   },
   "devDependencies": {
     "jest": "27.2.4",
